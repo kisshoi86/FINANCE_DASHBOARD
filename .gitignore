@@ -34,8 +34,9 @@ wheels/
 *.swo
 *~
 
-# Streamlit
-.streamlit/
+# Streamlit (config.toml은 포함)
+.streamlit/*
+!.streamlit/config.toml
 
 # Output files
 *.html
@@ -49,6 +50,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+
+
 
 
 
